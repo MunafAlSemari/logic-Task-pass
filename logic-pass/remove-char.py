@@ -3,7 +3,7 @@
 def remove_char(str,cha):
     newStr = filter(lambda x: x!= cha.lower() and x != cha.upper(), str)
     return "".join(newStr)
-    #End method
+#End method
 
 #Testing
 str=input("Enter the string: ")       # myProjectk
